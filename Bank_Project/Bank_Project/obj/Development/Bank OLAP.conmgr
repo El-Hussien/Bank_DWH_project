@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Bank OLAP"
+  DTS:DTSID="{EAD4D73C-F870-4B99-B596-4700EDC9ACFF}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=Union_Bank_OLAP;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Bank_Project-{EAD4D73C-F870-4B99-B596-4700EDC9ACFF}.\SQLEXPRESS.Union_Bank_OLAP;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
